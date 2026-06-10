@@ -37,3 +37,4 @@ const teamMembers = [
   }
 ];
 
+const teamContainerDiv = document.querySelector('.team-container');
