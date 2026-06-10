@@ -41,12 +41,14 @@ const teamContainerDiv = document.querySelector('.team-container');
 
 const teamMembersCardTemplate = member => `
 <div class="team-card">
-<div class="card-image">
-<img src"img/${member.img}" alt="${member.name}">
+    <div class="card-image">
+        <img src="${member.img}" alt="${member.name}" />
+    </div>
+    <div class="card-text">
+        <h3>${member.name}</h3>
+        <p>${member.role}</p>
+    </div>
 </div>
-<div class="card-text">
-<h3>${member.name}</h3>
-<h3>${member.role}</h3>
 `;
 
 let html = '';
