@@ -9,3 +9,18 @@
     background-color: black;
     color: white;
 }
+
+h1 {
+    margin-bottom: 40px;
+    color: #e53170;
+    text-align: center;
+}
+
+.section-description {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.card-text :last-child {
+    color: #6bcaee;
+}
