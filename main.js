@@ -34,6 +34,12 @@ const teamMembers = [
         role: "Analyst",
         email: "danielaamet@team.com",
         img: "img/female3.png"
+    },
+    {
+        name: "Lorenzo Girardi",
+        role: "coffee manager",
+        email: "lorenzogirardi@team.com",
+        img: "img/male4.png"
     }
 ];
 
